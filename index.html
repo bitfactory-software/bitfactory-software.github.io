@@ -1,85 +1,125 @@
 ﻿<!doctype html>
 <html lang="en">
-	<head>
 
-		<meta charset="utf-8">
-		<meta http-equiv="Cache-Control" CONTENT="public">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="bitfactory-software">
-		<meta name="author" content="bitfactory-software">
-		<meta name="theme-color" content="#3C3C58">
-		<!-- add to home -->
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="icon" href="alex.png" sizes="192x192">
+<head>
 
-		<title>www.alexweb.io</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" CONTENT="public">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="bitfactory-software">
+	<meta name="author" content="bitfactory-software">
+	<meta name="theme-color" content="#3C3C58">
+	<!-- add to home -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon" href="alex.png" sizes="192x192">
 
-		<!-- CSS -->
-		<style>
-			@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
-			body { font-family: 'Montserrat', sans-serif !important; padding-top: 5rem; }
-			.navbar { color: #FFD317; background-color: #3C3C58; }
-            .defcolor { color: #3C3C58; }
-			.defcoloryellow { color: #FFD317; }
-        </style>
-	</head>
+	<title>www.alexweb.io</title>
 
-	<body>
-    <noscript id="deferred-styles">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    </noscript>
-	
+	<!-- CSS -->
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
+
+		body {
+			font-family: 'Montserrat', sans-serif !important;
+			padding-top: 5rem;
+		}
+
+		.navbar {
+			color: #FFD317;
+			background-color: #3C3C58;
+		}
+
+		.defcolor {
+			color: #3C3C58;
+		}
+
+		.defcoloryellow {
+			color: #FFD317;
+		}
+	</style>
+</head>
+
+<body>
+	<noscript id="deferred-styles">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+			integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	</noscript>
+
 	<script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
-	
+		var loadDeferredStyles = function () {
+			var addStylesNode = document.getElementById("deferred-styles");
+			var replacement = document.createElement("div");
+			replacement.innerHTML = addStylesNode.textContent;
+			document.body.appendChild(replacement)
+			addStylesNode.parentElement.removeChild(addStylesNode);
+		};
+		var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+			window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+		if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+		else window.addEventListener('load', loadDeferredStyles);
+	</script>
+
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
 		<a class="navbar-brand" href="#"><i class="fas fa-code defcoloryellow"></i></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+			aria-expanded="false" aria-label="Toggle navigation">
 			<span><i class="fas fa-bars defcoloryellow"></i></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a class="nav-link" href="#">www.alexweb.io</a></li>
-				<li class="nav-item active"><a class="nav-link" href="https://github.com/bitfactory-software"><i class="fab fa-github defcoloryellow"></i></a></li>
-				<li class="nav-item active"><a class="nav-link" href="https://www.bitfactory.at"><i class="fas fa-home defcoloryellow"></i></a></li>
+				<li class="nav-item active"><a class="nav-link" href="https://github.com/bitfactory-software"><i
+							class="fab fa-github defcoloryellow"></i></a></li>
+				<li class="nav-item active"><a class="nav-link" href="https://www.bitfactory.at"><i
+							class="fas fa-home defcoloryellow"></i></a></li>
 			</ul>
 		</div>
 	</nav>
 
-    <main role="main" class="container">
-	
-			<div class="container">
-				<div class="row">
-					<div class="col">
-							<div class="card" style="width: 18rem;">
-								<div class="card-body">
-									<h5 class="card-title">Login</h5>
-									<p class="card-text">Login Bootstrap</p>
-									<a href="https://www.alexweb.io/Login" class="card-link"><i class="fas fa-link defcolor"></i></a>
-									<a href="https://github.com/bitfactory-software/Login" class="card-link"><i class="fab fa-github defcolor"></i></a>
-								</div>
-							</div>
+	<main role="main" class="container">
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<div class="card-body">
+							<h5 class="card-title">Login</h5>
+							<p class="card-text">Login Bootstrap</p>
+							<a href="https://www.alexweb.io/Login" class="card-link"><i
+									class="fas fa-link defcolor"></i></a>
+							<a href="https://github.com/bitfactory-software/Login" class="card-link"><i
+									class="fab fa-github defcolor"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card" style="width: 18rem;">
+						<div class="card-body">
+							<h5 class="card-title">Login</h5>
+							<p class="card-text">Login Bootstrap</p>
+							<a href="https://www.alexweb.io/http-client-example" class="card-link"><i
+									class="fas fa-link defcolor"></i></a>
+							<a href="https://github.com/bitfactory-software/http-client-example" class="card-link"><i
+									class="fab fa-github defcolor"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</main>
+		</div>
+	</main>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+		integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+		crossorigin="anonymous"></script>
 	<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script>
-  </body>
+</body>
+
 </html>
