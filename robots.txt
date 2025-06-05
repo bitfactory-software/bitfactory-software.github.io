@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /
+Disallow: /alex-version-history/
