@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "bfx.alex.employee.cockpit.qt",
+      "sha256_cert_fingerprints": [
+        "4E:BC:E4:16:1E:79:87:18:3C:6A:C2:4C:57:35:16:6B:BC:68:CC:06:E9:2D:D7:0D:5B:CC:EA:73:0F:34:AB:97",
+		"B7:A2:BA:AC:34:95:DD:DD:30:03:31:10:91:93:5D:7B:0B:F5:48:35:BE:E6:C3:67:BE:8F:87:79:CB:DA:CD:C1"
+      ]
+    }
+  }
+]
